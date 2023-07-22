@@ -1,31 +1,69 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-link {
-  color: #61dafb;
+.body__container {
+  display: flex;
+  width: 22.5rem;
+  height: 23.6875rem;
+  padding: 1.875rem 1.25rem 1.8125rem 1.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.heart {
-  color: #ff0000;
+.body__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.small {
-  font-size: 0.75rem;
+.heading__title {
+  display: flex;
+  width: 12.32rem;
+  height: 1.96rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.body__dies_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.body__single_die {
+  width: 4rem;
+  height: 4rem;
+  color: #2B283A;
+  text-align: center;
+  font-size: 1.28681rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.body__roll_button {
+  width: 5.76rem;
+  height: 3.24rem;
+  background-color: #5035FF;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.024rem;
+}
+
+.green {
+  background-color: #59E391
 }
